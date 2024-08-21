@@ -11,7 +11,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="44"/>
       </Unit>
       <Unit>
         <Filename Value="umenu.pas"/>
@@ -20,11 +20,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UMenu"/>
-        <TopLine Value="41"/>
-        <CursorPos X="4" Y="43"/>
-        <UsageCount Value="39"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="11" Y="9"/>
+        <UsageCount Value="44"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="udatamodule.pas"/>
@@ -36,9 +35,8 @@
         <EditorIndex Value="2"/>
         <TopLine Value="31"/>
         <CursorPos X="81" Y="41"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="44"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="uuniverso.pas"/>
@@ -47,13 +45,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UUniverso"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="26"/>
-        <CursorPos X="3" Y="38"/>
-        <UsageCount Value="39"/>
+        <TopLine Value="43"/>
+        <CursorPos X="35" Y="54"/>
+        <UsageCount Value="44"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="uedicaouniverso.pas"/>
@@ -63,10 +59,10 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UEdicaoUniverso"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="41"/>
-        <UsageCount Value="33"/>
+        <TopLine Value="32"/>
+        <CursorPos X="3" Y="41"/>
+        <UsageCount Value="38"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../../.lazarus/onlinepackagemanager/packages/zeosdbo/src/component/ZAbstractRODataset.pas"/>
@@ -78,22 +74,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="umenu.pas"/>
-        <Caret Line="48" Column="25" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="umenu.pas"/>
-        <Caret Line="49" Column="4" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="umenu.pas"/>
-        <Caret Line="44" Column="84" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="umenu.pas"/>
-        <Caret Line="43" Column="31" TopLine="39"/>
-      </Position>
       <Position>
         <Filename Value="umenu.pas"/>
         <Caret Line="41" Column="53" TopLine="34"/>
@@ -196,6 +176,22 @@
       <Position>
         <Filename Value="umenu.pas"/>
         <Caret Line="49" Column="3" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="uuniverso.pas"/>
+        <Caret Line="38" Column="3" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="umenu.pas"/>
+        <Caret Line="43" Column="4" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="uedicaouniverso.pas"/>
+        <Caret Line="40" Column="26" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="umenu.pas"/>
+        <Caret Line="50" Column="36" TopLine="41"/>
       </Position>
     </JumpHistory>
     <RunParams>
