@@ -1,0 +1,70 @@
+object FMenu: TFMenu
+  Left = 295
+  Height = 489
+  Top = 166
+  Width = 561
+  Caption = 'Menu Principal - Sicreq'
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object MainMenu1: TMainMenu
+    Left = 24
+    Top = 16
+    object MenuItem1: TMenuItem
+      Caption = 'Cadastros'
+      OnClick = MenuItem1Click
+      object MenuItem3: TMenuItem
+        Caption = 'ARMAZENAGEM'
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'ARTISTA'
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'ARTISTA_HISTORIA'
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'EDITORA'
+      end
+      object MenuItem7: TMenuItem
+        Caption = 'EXEMPLAR'
+      end
+      object MenuItem8: TMenuItem
+        Caption = 'HISTORIA'
+      end
+      object MenuItem9: TMenuItem
+        Caption = 'IMAGEM_PERSONAGEM'
+      end
+      object MenuItem10: TMenuItem
+        Caption = 'PERSONAGEM'
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'PERSONAGEM_CRIADOR'
+      end
+      object MenuItem12: TMenuItem
+        Caption = 'SITUACAO_TITULO'
+      end
+      object MenuItem13: TMenuItem
+        Caption = 'TAMANHO'
+      end
+      object MenuItem14: TMenuItem
+        Caption = 'TIPO_TITULO'
+      end
+      object MenuItem15: TMenuItem
+        Caption = 'TITULO'
+      end
+      object MenuItem16: TMenuItem
+        Caption = 'UNIVERSO'
+        OnClick = MenuItem16Click
+      end
+      object MenuItem17: TMenuItem
+        Caption = 'HISTORIA_PERSONAGEM'
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Relatórios'
+    end
+    object MenuItem18: TMenuItem
+      Caption = 'Consultas'
+    end
+  end
+end

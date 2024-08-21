@@ -1,0 +1,57 @@
+object DataModule1: TDataModule1
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 328
+  HorizontalOffset = 351
+  VerticalOffset = 144
+  Width = 409
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'RawStringEncoding=DB_CP'
+    )
+    Connected = True
+    AfterConnect = ZConnection1AfterConnect
+    DisableSavepoints = False
+    HostName = 'localhost'
+    Port = 3050
+    Database = '/databases/sicreq.fdb'
+    User = 'SYSDBA'
+    Password = 'Barajuji24'
+    Protocol = 'firebird'
+    Left = 32
+    Top = 32
+  end
+  object TBUniverso: TZTable
+    Connection = ZConnection1
+    Active = True
+    TableName = 'UNIVERSO'
+    MasterSource = DSUniverso
+    Left = 137
+    Top = 36
+    object TBUniversoUNIVERSO_CODIGO: TZIntegerField
+      FieldKind = fkData
+      FieldName = 'UNIVERSO_CODIGO'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      ReadOnly = False
+      Required = True
+    end
+    object TBUniversoUNIVERSO_DESCRICAO: TZRawStringField
+      FieldKind = fkData
+      FieldName = 'UNIVERSO_DESCRICAO'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+  end
+  object DSUniverso: TDataSource
+    DataSet = TBUniverso
+    Left = 224
+    Top = 36
+  end
+end
