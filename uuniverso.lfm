@@ -1,7 +1,7 @@
 object FUniverso: TFUniverso
-  Left = 294
+  Left = 372
   Height = 424
-  Top = 163
+  Top = 167
   Width = 602
   Caption = 'Cadastro de Universo'
   ClientHeight = 424
@@ -17,12 +17,12 @@ object FUniverso: TFUniverso
     Color = clWindow
     Columns = <    
       item
-        Title.Caption = 'UNIVERSO_CODIGO'
+        Title.Caption = 'CODIGO'
         Width = 150
         FieldName = 'UNIVERSO_CODIGO'
       end    
       item
-        Title.Caption = 'UNIVERSO_DESCRICAO'
+        Title.Caption = 'DESCRICAO'
         Width = 200
         FieldName = 'UNIVERSO_DESCRICAO'
       end>

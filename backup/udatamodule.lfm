@@ -7,8 +7,10 @@ object DataModule1: TDataModule1
   Width = 409
   object ZConnection1: TZConnection
     ControlsCodePage = cCP_UTF8
+    ClientCodepage = 'ISO8859_1'
     Properties.Strings = (
       'RawStringEncoding=DB_CP'
+      'codepage=ISO8859_1'
     )
     Connected = True
     AfterConnect = ZConnection1AfterConnect
@@ -24,7 +26,6 @@ object DataModule1: TDataModule1
   end
   object TBUniverso: TZTable
     Connection = ZConnection1
-    CachedUpdates = True
     Active = True
     TableName = 'UNIVERSO'
     MasterSource = DSUniverso

@@ -8,10 +8,7 @@
         <Filename Value="sicreq.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="44"/>
+        <UsageCount Value="48"/>
       </Unit>
       <Unit>
         <Filename Value="umenu.pas"/>
@@ -20,9 +17,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UMenu"/>
-        <TopLine Value="41"/>
-        <CursorPos X="36" Y="50"/>
-        <UsageCount Value="44"/>
+        <TopLine Value="38"/>
+        <CursorPos X="21" Y="33"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -33,11 +30,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="UDataModule"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="31"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="30"/>
         <CursorPos X="81" Y="41"/>
-        <UsageCount Value="44"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="48"/>
       </Unit>
       <Unit>
         <Filename Value="uuniverso.pas"/>
@@ -46,10 +42,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UUniverso"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="1"/>
         <TopLine Value="43"/>
-        <CursorPos X="35" Y="54"/>
-        <UsageCount Value="44"/>
+        <CursorPos X="34" Y="54"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -60,12 +56,11 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UEdicaoUniverso"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="32"/>
-        <CursorPos X="3" Y="41"/>
-        <UsageCount Value="38"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="24"/>
+        <CursorPos X="90" Y="28"/>
+        <UsageCount Value="42"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../../.lazarus/onlinepackagemanager/packages/zeosdbo/src/component/ZAbstractRODataset.pas"/>
@@ -75,126 +70,36 @@
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
+      <Unit>
+        <Filename Value="../../.lazarus/onlinepackagemanager/packages/zeosdbo/src/plain/ZPlainLoader.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="167"/>
+        <CursorPos X="5" Y="176"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
+    <JumpHistory HistoryIndex="4">
       <Position>
         <Filename Value="umenu.pas"/>
-        <Caret Line="43" Column="31" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="umenu.pas"/>
-        <Caret Line="41" Column="53" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="umenu.pas"/>
-        <Caret Line="34" Column="16" TopLine="31"/>
-      </Position>
-      <Position>
-        <Filename Value="umenu.pas"/>
-        <Caret Line="43" Column="36" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="umenu.pas"/>
-        <Caret Line="44" Column="26" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="uuniverso.pas"/>
-        <Caret Line="38" Column="73" TopLine="28"/>
-      </Position>
-      <Position>
-        <Filename Value="uuniverso.pas"/>
-        <Caret Line="9" Column="11"/>
-      </Position>
-      <Position>
-        <Filename Value="uuniverso.pas"/>
-        <Caret Line="13" Column="30"/>
-      </Position>
-      <Position>
-        <Filename Value="uuniverso.pas"/>
         <Caret Line="9" Column="11"/>
       </Position>
       <Position>
         <Filename Value="umenu.pas"/>
-        <Caret Line="43" Column="17" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="uedicaouniverso.pas"/>
-      </Position>
-      <Position>
-        <Filename Value="uedicaouniverso.pas"/>
-        <Caret Line="28" Column="29" TopLine="22"/>
-      </Position>
-      <Position>
-        <Filename Value="uedicaouniverso.pas"/>
-        <Caret Line="29" Column="29" TopLine="23"/>
-      </Position>
-      <Position>
-        <Filename Value="uedicaouniverso.pas"/>
-        <Caret Line="30" Column="29" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="uedicaouniverso.pas"/>
-        <Caret Line="31" Column="29" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="uedicaouniverso.pas"/>
-        <Caret Line="37" Column="79" TopLine="26"/>
-      </Position>
-      <Position>
-        <Filename Value="uedicaouniverso.pas"/>
-        <Caret Line="36" Column="79" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="uedicaouniverso.pas"/>
-        <Caret Line="35" Column="79" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="uedicaouniverso.pas"/>
-        <Caret Line="36" Column="79" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="uedicaouniverso.pas"/>
-        <Caret Line="38" Column="79" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="uedicaouniverso.pas"/>
-        <Caret Line="46" Column="3" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="uedicaouniverso.pas"/>
-        <Caret Line="45" Column="3" TopLine="32"/>
+        <Caret Line="49" Column="3" TopLine="42"/>
       </Position>
       <Position>
         <Filename Value="uuniverso.pas"/>
-        <Caret Line="33" Column="33" TopLine="22"/>
-      </Position>
-      <Position>
-        <Filename Value="uuniverso.pas"/>
-        <Caret Line="38" Column="37" TopLine="31"/>
-      </Position>
-      <Position>
-        <Filename Value="uuniverso.pas"/>
-        <Caret Line="53" Column="28" TopLine="41"/>
-      </Position>
-      <Position>
-        <Filename Value="umenu.pas"/>
-        <Caret Line="44" TopLine="41"/>
-      </Position>
-      <Position>
-        <Filename Value="umenu.pas"/>
-        <Caret Line="49" Column="3" TopLine="41"/>
-      </Position>
-      <Position>
-        <Filename Value="uuniverso.pas"/>
-        <Caret Line="38" Column="3" TopLine="26"/>
-      </Position>
-      <Position>
-        <Filename Value="umenu.pas"/>
-        <Caret Line="43" Column="4" TopLine="41"/>
+        <Caret Line="54" Column="35" TopLine="42"/>
       </Position>
       <Position>
         <Filename Value="uedicaouniverso.pas"/>
-        <Caret Line="40" Column="26" TopLine="30"/>
+        <Caret Line="41" Column="3" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="uedicaouniverso.pas"/>
+        <Caret Line="33" Column="6" TopLine="24"/>
       </Position>
     </JumpHistory>
     <RunParams>

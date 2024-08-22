@@ -31,7 +31,7 @@ var
 
 implementation
 
-uses UUniverso, UDataModule;
+uses UUniverso, UEdicaoUniverso, UDataModule;
 
 
 {$R *.lfm}

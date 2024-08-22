@@ -7,8 +7,10 @@ object DataModule1: TDataModule1
   Width = 409
   object ZConnection1: TZConnection
     ControlsCodePage = cCP_UTF8
+    ClientCodepage = 'ISO8859_1'
     Properties.Strings = (
       'RawStringEncoding=DB_CP'
+      'codepage=ISO8859_1'
     )
     Connected = True
     AfterConnect = ZConnection1AfterConnect
@@ -29,7 +31,7 @@ object DataModule1: TDataModule1
     MasterSource = DSUniverso
     Left = 137
     Top = 36
-    object TBUniversoUNIVERSO_CODIGO: TZIntegerField
+    object TBUNIVERSO_CODIGO: TZIntegerField
       FieldKind = fkData
       FieldName = 'UNIVERSO_CODIGO'
       Index = 0
@@ -38,7 +40,7 @@ object DataModule1: TDataModule1
       ReadOnly = False
       Required = True
     end
-    object TBUniversoUNIVERSO_DESCRICAO: TZRawStringField
+    object TBUNIVERSO_DESCRICAO: TZRawStringField
       FieldKind = fkData
       FieldName = 'UNIVERSO_DESCRICAO'
       Index = 1

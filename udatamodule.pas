@@ -13,8 +13,8 @@ type
 
   TDataModule1 = class(TDataModule)
     DSUniverso: TDataSource;
-    TBUniversoUNIVERSO_CODIGO: TZIntegerField;
-    TBUniversoUNIVERSO_DESCRICAO: TZRawStringField;
+    TBUNIVERSO_CODIGO: TZIntegerField;
+    TBUNIVERSO_DESCRICAO: TZRawStringField;
     ZConnection1: TZConnection;
     TBUniverso: TZTable;
     procedure DataModuleCreate(Sender: TObject);

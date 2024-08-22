@@ -1,7 +1,7 @@
 object FMenu: TFMenu
-  Left = 295
+  Left = 313
   Height = 489
-  Top = 166
+  Top = 133
   Width = 561
   Caption = 'Menu Principal - Sicreq'
   Menu = MainMenu1
